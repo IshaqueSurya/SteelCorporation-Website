@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome To Steel Corporation</title>
-    <link rel="icon" href="./images/tab-logo.png" type="image/x-icon" />
+    <link rel = "icon" href = "./images/tab-logo.png" 
+        type = "image/x-icon">
 
     <!-- Font Awesome -->
     <link
@@ -33,13 +34,13 @@
 
     <header class="header fixed header-small clearfix">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg bg-white sticky-top">
-        <div class="container-fluid ms-5">
-          <a class="navbar-brand ms-5" href="#"
+      <nav class="navbar navbar-expand-lg bg-white sticky-top mobile-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand mobile-nav-image" href="#"
             ><img src="./images/logo.png" class="img-fluid" alt="..."
           /></a>
           <button
-            class="navbar-toggler bg-light p-3"
+            class="navbar-toggler bg-light p-3 mobile-nav-button"
             type="button"
             data-mdb-toggle="collapse"
             data-mdb-target="#navbarNav"
@@ -50,7 +51,7 @@
             <i class="fas fa-bars fa-lg"></i>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-center"
+            class="collapse navbar-collapse justify-content-center ms-5"
             id="navbarNav"
           >
             <ul class="navbar-nav mb-2 mb-lg-0">
@@ -266,12 +267,7 @@
 
     <div class="container text-center p-4">
       <div class="row">
-        <div
-          class="col"
-          scrolls
-          scrolls-anim="fade-right"
-          scrolls-duration="1000"
-        >
+        <div class="col animated fadeInLeft">
           <br />
           <h2 class="font-regular text-center text-primary">
             Welcome to Steel Corporation India
@@ -281,7 +277,7 @@
             quality steel strips in India and worldwide
           </h3>
         </div>
-        <div class="col-md-12 col-md-offset-0" scrolls scrolls-anim="fade-right" scrolls-duration="1000">
+        <div class="col-md-12 col-md-offset-0 animated fadeInLeft">
           <br />
           <p class="text-center font-awesome">
             To serve for Quality Steel in your next project, the Steel
@@ -306,21 +302,15 @@
 
     <!--Terms Part-->
 
-    <div
-      class="container-fluid bg-light text-center p-4"
-    >
-      <h2 class="text-primary mt-4" scrolls
-      scrolls-anim="fade-left"
-      scrolls-duration="1000">
+    <div class="container-fluid bg-light text-center p-4">
+      <h2 class="text-primary mt-4">
         What is the Connection Between Metal & Steel
       </h2>
 
-      <div 
+      <div
         class="row d-flex justify-content-center gy-5 mt-1 row-cols-md-3 mb-5"
       >
-        <div class="col d-flex justify-content-center" scrolls
-        scrolls-anim="fade-left"
-        scrolls-duration="1000">
+        <div class="col d-flex justify-content-center">
           <div class="card" style="width: 20rem; border-radius: 0">
             <img
               src="./images/compression.jpg"
@@ -337,10 +327,8 @@
             </div>
           </div>
         </div>
-        <div class="col d-flex justify-content-center" scrolls
-        scrolls-anim="fade-left"
-        scrolls-duration="1000">
-          <div class="card"  style="width: 20rem; border-radius: 0">
+        <div class="col d-flex justify-content-center">
+          <div class="card" style="width: 20rem; border-radius: 0">
             <img
               src="./images/development.jpg"
               class="card-img-top"
@@ -356,10 +344,8 @@
             </div>
           </div>
         </div>
-        <div class="col d-flex justify-content-center" scrolls
-        scrolls-anim="fade-left"
-        scrolls-duration="1000">
-          <div class="card"  style="width: 20rem; border-radius: 0">
+        <div class="col d-flex justify-content-center">
+          <div class="card" style="width: 20rem; border-radius: 0">
             <img
               src="./images/extension.jpg"
               class="card-img-top"
@@ -375,10 +361,8 @@
             </div>
           </div>
         </div>
-        <div class="col d-flex justify-content-center" scrolls
-        scrolls-anim="fade-left"
-        scrolls-duration="1000">
-          <div class="card"  style="width: 20rem; border-radius: 0">
+        <div class="col d-flex justify-content-center">
+          <div class="card" style="width: 20rem; border-radius: 0">
             <img
               src="./images/wire_shape.jpg"
               class="card-img-top"
@@ -394,10 +378,7 @@
             </div>
           </div>
         </div>
-        <div class="col d-flex justify-content-center" 
-        scrolls
-          scrolls-anim="fade-left"
-          scrolls-duration="1000">
+        <div class="col d-flex justify-content-center">
           <div class="card" style="width: 20rem; border-radius: 0">
             <img
               src="./images/torsion.jpg"
@@ -423,8 +404,7 @@
 
     <!--Video-->
 
-    <div class="container mt-5" scrolls
-     scrolls-delay="500">
+    <div class="container mt-5">
       <h2 class="text-center font-regular mb-5">
         Why Choose Steel Corporation India
       </h2>
@@ -438,7 +418,7 @@
             ></iframe>
           </div>
         </div>
-        <div class="col-lg text-center">
+        <div class="col-lg text-center ">
           <h2 class="font-regular text-danger mt-4">
             <strong
               >High Quality Solutions For All Industries Can we help your
@@ -593,5 +573,4 @@
 
     <!--Footer-->
   </body>
-  <script src="./javascript/scrolls-main/dist/scrolls.min.js"></script>
 </html>
