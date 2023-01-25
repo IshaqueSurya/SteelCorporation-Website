@@ -99,5 +99,35 @@ animation-name: fadeInLeft;
 }
 
 .mobile-nav-button{
+  margin-left: 25.33333333%;
+  margin-right: 25.33333333%;
   width: 100%
 }
+
+.hamburger-item{
+  border-width: 1px;
+  border-color: gray;
+  border-style: double;
+  border-radius: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 992px) {
+  .navbar-collapse {
+      background: rgba(255, 0, 0, 0.5);     /* transparent red 
+  }
+} */
+
+/* Anything Smaller than Large  */
+@media (max-width: 991px) {
+  .navbar-collapse {
+      background-color: #332D2D1A; /* transparent pink */
+      margin-left: 25.33333333%;
+      margin-right: 25.33333333%;
+  }
+}
+
