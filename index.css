@@ -99,8 +99,8 @@ animation-name: fadeInLeft;
 }
 
 .mobile-nav-button{
-  margin-left: 25.33333333%;
-  margin-right: 25.33333333%;
+  margin-left: 20.33333333%;
+  margin-right: 20.33333333%;
   width: 100%
 }
 
@@ -126,8 +126,8 @@ animation-name: fadeInLeft;
 @media (max-width: 991px) {
   .navbar-collapse {
       background-color: #332D2D1A; /* transparent pink */
-      margin-left: 25.33333333%;
-      margin-right: 25.33333333%;
+      margin-left: 20.33333333%;
+      margin-right: 20.33333333%;
   }
 }
 
