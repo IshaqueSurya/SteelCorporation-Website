@@ -92,3 +92,7 @@ animation-name: fadeInLeft;
 .mobile-nav-button{
   width: 100%
 }
+
+.carousel-inner>.active, .carousel-inner>.next, .carousel-inner>.prev { 
+  width: 102.5%!important;
+}
