@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-.carousel .carousel-item {
-  max-height: 550px;
-}
-
-.carousel-item img {
-  object-fit: cover;
-  max-height: 550px;
-}
-
 .font-regular {
   font-weight: 100;
 }
