@@ -92,3 +92,36 @@ animation-name: fadeInLeft;
 .mobile-nav-button{
   width: 100%
 }
+
+.feedback {
+  background-color : teal;
+  color: white;
+  padding: 10px 20px;
+  border-color: #46b8da;
+  height: 10vh;
+  width: 10vh;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vh;
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+  .class {
+   margin:50px;
+  }
+}
+
+
+@media all and (max-width: 400px) and (min-width: 02px) {
+  .mobile-nav-image {
+   margin-left:-50px;
+  }
+}
+
+.get-quote:hover{
+  background-color: #8b0000;
+  color: white;
+}
